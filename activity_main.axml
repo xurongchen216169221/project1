@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<TextView
+		android:text="Please enter a name"		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+		android:id="@+id/textView1"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/nameText"
+        android:text=""/>
+    
+    <TextView
+        android:text="Please enter a password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:id="@+id/Password"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:id="@+id/textpassword"
+        android:text=""/>
+    
+    
+    
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:id="@+id/buttonVisitor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Here"
+        android:layout_marginTop="300dp"
+        android:id="@+id/buttonSign"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show userdata"
+        android:layout_marginTop="380dp"
+        android:id="@+id/buttonshow"/>
+    
+ 
+   
+    
+</RelativeLayout>
